@@ -1,0 +1,7 @@
+{
+	"Cocoa Help": {
+		"name": "Cocoa Help",
+		"command": "open 'http://cocoa.mnt2cc.com'",
+		"shortcut": "Command+H+C"
+	}
+}

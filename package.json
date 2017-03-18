@@ -1,0 +1,29 @@
+{
+  "name": "Cocoa",
+  "version": "1.0.0",
+  "description": "Register shortcuts and manage easily.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manato0x2cc/cocoa.git"
+  },
+  "keywords": [
+    "shortcut",
+    "tools",
+    "useful"
+  ],
+  "author": "Manato0x2cc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manato0x2cc/cocoa/issues"
+  },
+  "homepage": "https://github.com/manato0x2cc/cocoa#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "shell": "^0.3.2"
+  }
+}

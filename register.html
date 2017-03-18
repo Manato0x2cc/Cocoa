@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="Manato0x2cc">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/register.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="bootstrap/assets/js/ie-emulation-modes-warning.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" id="logo">Cocoa</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid center-block">
+      <div class="row">
+        <div class="col-sm-8 col-md-8">
+          <h2 class="sub-header">Register a shortcut</h2>
+          <form method="post" action="hoge" class="form-inline text-center">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Name" class="form-control col-md-8">
+            </div>
+            <div class="form-group command-form">
+              <input type="text" id="cmd" placeholder="Enter command which is executed" class="form-control col-md-8">
+              <button type="button" class="btn btn-success col-md-4" id="usual">Usual Commands.</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div>
+          <div class="regist">
+            <div id="keyboard_main">
+              <span class="char">1</span>
+              <span class="char">2</span>
+              <span class="char">3</span>
+              <span class="char">4</span>
+              <span class="char">5</span>
+              <span class="char">6</span>
+              <span class="char">7</span>
+              <span class="char">8</span>
+              <span class="char">9</span>
+              <span class="char">0</span>
+              <br>
+              <span id="shift">shift</span>
+              <span class="char">q</span>
+              <span class="char">w</span>
+              <span class="char">e</span>
+              <span class="char">r</span>
+              <span class="char">t</span>
+              <span class="char">y</span>
+              <span class="char">u</span>
+              <span class="char">i</span>
+              <span class="char">o</span>
+              <span class="char">p</span>
+              <br>
+              <span id="command">cmd</span>
+              <span class="char">a</span>
+              <span class="char">s</span>
+              <span class="char">d</span>
+              <span class="char">f</span>
+              <span class="char">g</span>
+              <span class="char">h</span>
+              <span class="char">j</span>
+              <span class="char">k</span>
+              <span class="char">l</span>
+              <span id="up">↑</span>
+              <span class="char" id="comma">,</span>
+              <span class="char" id="period">.</span>
+              <br>
+              <span id="option">opt</span>
+              <span class="char">z</span>
+              <span class="char">x</span>
+              <span class="char">c</span>
+              <span class="char">v</span>
+              <span class="char">b</span>
+              <span class="char">n</span>
+              <span class="char">m</span>
+              <span id="left">←</span>
+              <span id="down">↓</span>
+              <span id="right">→</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="text-align:center;">
+        <button type="button" class="btn btn-success" id="regist" style="width:80%; position:relative; top:20px;">Register</button>
+      </div>
+    </div>
+    <!-- fadelayer -->
+    <div id="fadelayer"></div>
+
+    <script>
+      window.$ = window.jQuery = window.require("./js/jquery-3.1.1.min.js"); // Load jQuery.
+    </script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/cocoa.js"></script>
+  </body>
+</html>
