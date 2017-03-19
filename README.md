@@ -1,2 +1,2 @@
+<img src='https://github.com/Manato0x2cc/Cocoa/raw/master/docs/top.png' />
 # Cocoa
-Cocoa is application which makes your work is easily with Shortcuts and manage them.
